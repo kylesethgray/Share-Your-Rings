@@ -12,7 +12,6 @@
 		CDBDCC2320A42D7600CEEB9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBDCC2220A42D7600CEEB9A /* AppDelegate.swift */; };
 		CDBDCC2520A42D7600CEEB9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBDCC2420A42D7600CEEB9A /* ViewController.swift */; };
 		CDBDCC2820A42D7600CEEB9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBDCC2620A42D7600CEEB9A /* Main.storyboard */; };
-		CDBDCC2A20A42D7700CEEB9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDBDCC2920A42D7700CEEB9A /* Assets.xcassets */; };
 		CDBDCC2D20A42D7700CEEB9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBDCC2B20A42D7700CEEB9A /* LaunchScreen.storyboard */; };
 		CDBDCC3720A42E1B00CEEB9A /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBDCC3620A42E1B00CEEB9A /* HealthKit.framework */; };
 		CDBDCC3920A42E6D00CEEB9A /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBDCC3820A42E6D00CEEB9A /* HealthManager.swift */; };
@@ -23,6 +22,7 @@
 		CDBDCC5820A4564200CEEB9A /* Regift.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBDCC5720A4564200CEEB9A /* Regift.swift */; };
 		CDBDCC5A20A45A1F00CEEB9A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CDBDCC5920A45A1F00CEEB9A /* Settings.bundle */; };
 		CDBDCC5C20A57BDD00CEEB9A /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBDCC5B20A57BDD00CEEB9A /* IntroViewController.swift */; };
+		DA89ECC420F17FDF0055FF98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA89ECC320F17FDE0055FF98 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,6 @@
 		CDBDCC2220A42D7600CEEB9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDBDCC2420A42D7600CEEB9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CDBDCC2720A42D7600CEEB9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CDBDCC2920A42D7700CEEB9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDBDCC2C20A42D7700CEEB9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDBDCC2E20A42D7700CEEB9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDBDCC3420A42E1B00CEEB9A /* CloseTheRings.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CloseTheRings.entitlements; sourceTree = "<group>"; };
@@ -48,6 +47,7 @@
 		CDBDCC5720A4564200CEEB9A /* Regift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regift.swift; sourceTree = "<group>"; };
 		CDBDCC5920A45A1F00CEEB9A /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		CDBDCC5B20A57BDD00CEEB9A /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		DA89ECC320F17FDE0055FF98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				CDBDCC5920A45A1F00CEEB9A /* Settings.bundle */,
-				CDBDCC2920A42D7700CEEB9A /* Assets.xcassets */,
 				CDBDCC2E20A42D7700CEEB9A /* Info.plist */,
 			);
 			path = "Other Resources";
@@ -131,6 +130,7 @@
 		CDBDCC2120A42D7600CEEB9A /* CloseTheRings */ = {
 			isa = PBXGroup;
 			children = (
+				DA89ECC320F17FDE0055FF98 /* Assets.xcassets */,
 				CDBDCC2220A42D7600CEEB9A /* AppDelegate.swift */,
 				CD7F790120F05AF20023023A /* Other Resources */,
 				CD7F78FE20F05A920023023A /* View Controllers */,
@@ -229,7 +229,7 @@
 			files = (
 				CDBDCC5A20A45A1F00CEEB9A /* Settings.bundle in Resources */,
 				CDBDCC2D20A42D7700CEEB9A /* LaunchScreen.storyboard in Resources */,
-				CDBDCC2A20A42D7700CEEB9A /* Assets.xcassets in Resources */,
+				DA89ECC420F17FDF0055FF98 /* Assets.xcassets in Resources */,
 				CDBDCC2820A42D7600CEEB9A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,13 +398,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = CloseTheRings/CloseTheRings.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CC3KAA4FP8;
+				DEVELOPMENT_TEAM = VZDUV57D94;
 				INFOPLIST_FILE = "$(SRCROOT)/CloseTheRings/Other Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.patmurraydev.CloseTheRings;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylesethgray.ShareRings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "CloseTheRings/CloseTheRings-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -420,13 +420,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = CloseTheRings/CloseTheRings.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CC3KAA4FP8;
+				DEVELOPMENT_TEAM = VZDUV57D94;
 				INFOPLIST_FILE = "$(SRCROOT)/CloseTheRings/Other Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.patmurraydev.CloseTheRings;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylesethgray.ShareRings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "CloseTheRings/CloseTheRings-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;

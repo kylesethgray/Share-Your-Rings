@@ -8,6 +8,10 @@
 	<string>Share Rings</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIcons</key>
+	<dict/>
+	<key>CFBundleIcons~ipad</key>
+	<dict/>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -29,7 +33,7 @@
 	<key>NSHealthUpdateUsageDescription</key>
 	<string>Health data is used to correctly draw your rings for today.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>The app needs right access to you library so it can save exported videos</string>
+	<string>The app needs write access to you library so it can save exported videos</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
